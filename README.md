@@ -1,11 +1,7 @@
 # Rack Detection Test
 
 This file contains my scripts to work with **YOLOv3** (neural network for object detection).
-- Steps required for the setup
- - Steps to run the code - 
- - Reasons behind decisions made based on the approach taken and proof of any intermediary steps (what happens if the step is missing) - 
- - Any afterthoughts on the proposed solution. (Such as fail cases or improvements) - 
- - A video would be a plus as a fallback should the code be unable to be executed.
+
 # Setup
 
 ## How to install Yolo System:
