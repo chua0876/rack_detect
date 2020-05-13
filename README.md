@@ -16,17 +16,17 @@ This file contains my scripts to work with **YOLOv3** (neural network for object
 
 2.1. Then you will see something like this: 
 >layer     filters    size              input                output
-    0 conv     32  3 x 3 / 1   416 x 416 x   3   ->   416 x 416 x  32  0.299 BFLOPs
-    1 conv     64  3 x 3 / 2   416 x 416 x  32   ->   208 x 208 x  64  1.595 BFLOPs
-    .......
-  105 conv    255  1 x 1 / 1    52 x  52 x 256   ->    52 x  52 x 255  0.353 BFLOPs
-  106 detection
-truth_thresh: Using default '1.000000'
-Loading weights from yolov3.weights...Done!
-data/dog.jpg: Predicted in 0.029329 seconds.
-dog: 99%
-truck: 93%
-bicycle: 99%
+> 0 conv     32  3 x 3 / 1   416 x 416 x   3   ->   416 x 416 x  32  0.299 BFLOPs
+> 1 conv     64  3 x 3 / 2   416 x 416 x  32   ->   208 x 208 x  64  1.595 BFLOPs
+> .......
+> 105 conv    255  1 x 1 / 1    52 x  52 x 256   ->    52 x  52 x 255  0.353 BFLOPs
+> 106 detection
+> truth_thresh: Using default '1.000000'
+> Loading weights from yolov3.weights...Done!
+> data/dog.jpg: Predicted in 0.029329 seconds.
+> dog: 99%
+> truck: 93%
+> bicycle: 99%
 ## How to use the Rack's front legs detection?
 1. Download the weight file and the .cfg file required for the leg detection in the **Darknet** directory:
 > git clone https://github.com/chua0876/rack_detect.git
