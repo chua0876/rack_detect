@@ -35,4 +35,4 @@ This file contains my scripts to work with **YOLOv3** (neural network for object
 > ./darknet detector test rack_detect/yolov3_rack.cfg rack_detect/<....weight> rack_detect/frame0201.jpg
 
 You can also use the weight file to detect any videos by running:
-> ./darknet detector demo  rack_detect/yolov3_rack.cfg rack_detect/<....weight>  <video file>
+> ./darknet detector demo  rack_detect/yolov3_rack.cfg rack_detect/<....weight> <video file>
