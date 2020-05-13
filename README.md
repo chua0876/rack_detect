@@ -14,7 +14,7 @@ This file contains my scripts to work with **YOLOv3** (neural network for object
 >wget https://pjreddie.com/media/files/yolov3.weights
 >./darknet detect cfg/yolov3.cfg yolov3.weights data/dog.jpg
 
-2.1. Then you will see something like this: 
+Then you will see something like this: 
 >layer     filters    size              input                output
 > 0 conv     32  3 x 3 / 1   416 x 416 x   3   ->   416 x 416 x  32  0.299 BFLOPs
 > 1 conv     64  3 x 3 / 2   416 x 416 x  32   ->   208 x 208 x  64  1.595 BFLOPs
