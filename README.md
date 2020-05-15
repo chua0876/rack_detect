@@ -30,7 +30,7 @@ Then you will see something like this:
 ## How to use the Rack's front legs detection?
 1. Download the weight file and the .cfg file required for the leg detection in the **Darknet** directory:
 > cd darknet
-> git clone https://github.com/chua0876/rack_detect.git
+>  git clone https://github.com/chua0876/rack_detect.git
 2. Download the rack's leg detection weight file and put it in the **Darknet** directory.
 > https://drive.google.com/file/d/1h2ReoNxj1MnUNSJ1MWMyjHQlt99GkVkl/view?usp=sharing
 3. Run this command in the terminal to test the weight file:
