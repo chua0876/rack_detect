@@ -32,7 +32,4 @@ Then you will see something like this:
 > git clone https://github.com/chua0876/rack_detect.git
 2. Run this command in the terminal to test the weight file:
 > cd Darknet
-> ./darknet detector test rack_detect/yolov3_rack.cfg rack_detect/<....weight> rack_detect/frame0201.jpg
-
-You can also use the weight file to detect any videos by running:
-> ./darknet detector demo  rack_detect/yolov3_rack.cfg rack_detect/<....weight> <video_file>
+> ./darknet detector test rack_detect/obj.data rack_detect/yolov3-rack_tiny.cfg rack_detect/yolov3-rack_tiny_600.weights rack_detect/frame0201.jpg
