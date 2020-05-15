@@ -37,3 +37,4 @@ Then you will see something like this:
 > https://drive.google.com/file/d/1h2ReoNxj1MnUNSJ1MWMyjHQlt99GkVkl/view?usp=sharing
 3. Run this command in the terminal to test the weight file:
 > ./darknet detector test rack_detect/obj.data rack_detect/yolov3-rack_tiny.cfg yolov3-rack_tiny_600.weights rack_detect/frame0201.jpg
+4. Then you will see the result of the detection like **Result.png** in the **rack_detect** folder!
