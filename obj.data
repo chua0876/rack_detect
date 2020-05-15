@@ -1,6 +1,6 @@
 classes= 1
-train  = x64/data/train.txt
-valid  = x64/data/test.txt
-names = x64/data/obj.names
+train  = rack_detect/train.txt
+valid  = rack_detect/test.txt
+names = rack_detect/obj.names
 backup = backup/
 
