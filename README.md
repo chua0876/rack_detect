@@ -29,7 +29,9 @@ Then you will see something like this:
 > bicycle: 99%
 ## How to use the Rack's front legs detection?
 1. Download the weight file and the .cfg file required for the leg detection in the **Darknet** directory:
+> cd darknet
 > git clone https://github.com/chua0876/rack_detect.git
-2. Run this command in the terminal to test the weight file:
-> cd Darknet
-> ./darknet detector test rack_detect/obj.data rack_detect/yolov3-rack_tiny.cfg rack_detect/yolov3-rack_tiny_600.weights rack_detect/frame0201.jpg
+2. Download the rack's leg detection weight file and put it in the **Darknet** directory.
+> https://drive.google.com/file/d/1h2ReoNxj1MnUNSJ1MWMyjHQlt99GkVkl/view?usp=sharing
+3. Run this command in the terminal to test the weight file:
+> ./darknet detector test rack_detect/obj.data rack_detect/yolov3-rack_tiny.cfg yolov3-rack_tiny_600.weights rack_detect/frame0201.jpg
